@@ -1,0 +1,89 @@
+{
+    "title": "关于学习生活中用到的程序使用方法",
+    "description": "记录常用软件程序的使用教程",
+    "author": "KangWei",
+    "language": "zh-hans",
+    "links":"https://github.com/code-world-kang",
+    "plugins": [
+        "github",
+        "back-to-top-button",
+        "code",
+        "copy-code-button",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "advanced-emoji",
+        "emphasize",
+        "splitter",
+        "tbfed-pagefooter",
+        "page-treeview",
+        "klipse",
+        "pageview-count",
+        "auto-scroll-table",
+        "lightbox",
+        "hide-element",
+        "theme-fexa",
+        "-sharing", 
+        "sharing-plus",
+        "edit-link"
+    ],
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"http://...",
+                    "target":"_red",
+                    "name": "KangWei"
+                }
+            ]
+        }
+    },
+
+
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/code-world-kang"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &weikang21@stu.pku.edu.cn 2021",
+            "modify_label": "该文件由KangWei修订，时间为：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-treeview": {
+            "copyright":"KangWei@PKU 2021",
+            "minHeaderCount": "6",
+            "minHeaderDeep": "2"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "edit-link": {
+            "base": "https://github.com/code-world-kang/Note-Code/blob/main/",
+            "label": "github"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "qq", "linkedin",
+                "qzone", "douban"
+            ]
+        }
+    }
+}
